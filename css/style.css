@@ -15,7 +15,7 @@ body{
 .section-container-sec{
     max-width: 900px;
     margin: 0 auto;
-    padding: 50px 100px;
+    padding: 80px 100px;
 
 }
 
@@ -131,3 +131,45 @@ header{
 .hr{
     border: 1px solid rgb(218, 218, 218);
 }
+
+/* card section code */
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.card-icon{
+    border-radius: 5px;
+    padding: 40px;
+    background: rgba(79, 157, 166, 0.1);
+
+}
+.card-icon-b{
+    border-radius: 5px;
+    padding: 40px;
+    background: rgba(255, 89, 89, 0.1);
+
+}
+.card-icon-c{
+    border-radius: 5px;
+    padding: 40px;
+    background: rgb(255, 244, 214);
+
+}
+.card-title{
+    color: rgb(18, 18, 18);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    margin: 10px 0;
+}
+.card-text{
+    color: rgb(112, 112, 112);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin: 16px 0;
+}
+/* About us section code */
