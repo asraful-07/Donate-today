@@ -173,3 +173,43 @@ header{
     margin: 16px 0;
 }
 /* About us section code */
+.conteiner-up{
+    background: rgb(255, 244, 214);
+    padding: 60px;
+    display: flex;
+    align-items: center;
+}
+.inpu-tedt, input{
+    padding: 16px 30px;
+    border: navajowhite;
+}
+
+/* footer section code */
+footer{
+    background-color: black;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-content{
+    padding: 40px;
+
+}
+.footer-title{
+    color: tomato;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+}
+.footer-text{
+    color: rgb(112, 112, 112);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
