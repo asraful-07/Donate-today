@@ -154,7 +154,6 @@ header{
     border-radius: 5px;
     padding: 40px;
     background: rgb(255, 244, 214);
-
 }
 .card-title{
     color: rgb(18, 18, 18);
@@ -172,6 +171,7 @@ header{
     letter-spacing: 0%;
     margin: 16px 0;
 }
+
 /* About us section code */
 .conteiner-up{
     background: rgb(255, 244, 214);
@@ -212,4 +212,33 @@ footer{
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0px;
+}
+
+/*  images section code */
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 24px;
+}
+.img-container img{
+    width: 100%;
+    height: auto;
+}
+.img-title{
+    color: rgb(18, 18, 18);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    margin: 10px 0;
+}
+.img-text{
+    color: rgb(112, 112, 112);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin: 16px 0;
 }
