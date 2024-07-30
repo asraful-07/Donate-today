@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar{
+            max-width: 1040px;
+            margin: 0 auto;
+            padding: 3rem 6rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 2px solid green;
+        }
+        .logo{
+            font-size: 24px;
+            font-weight: 700;
+        }
+        span{
+            color: crimson;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 3rem;
+            border: 2px solid gray;
+            border-radius: 20px;
+        }
+        ul li a{
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            color: black;
+        }
+        ul li a:hover{
+            color: tomato;
+            border-bottom: 2px solid tomato;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            Hel<span>lo</span>
+        </div>
+        <ul>
+            <li><a class="active" href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Content</a></li>
+            <li><a href="">Blog</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
