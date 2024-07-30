@@ -183,37 +183,6 @@ header{
     padding: 16px 30px;
     border: navajowhite;
 }
-
-/* footer section code */
-footer{
-    background-color: black;
-}
-.footer-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.footer-content{
-    padding: 40px;
-
-}
-.footer-title{
-    color: tomato;
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 54px;
-    letter-spacing: 0px;
-    margin-bottom: 10px;
-}
-.footer-text{
-    color: rgb(112, 112, 112);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0px;
-}
-
 /*  images section code */
 .skill-container{
     display: flex;
@@ -242,3 +211,30 @@ footer{
     letter-spacing: 0%;
     margin: 16px 0;
 }
+
+/* footer section code */
+footer{
+    background-color: black;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-title{
+    color: tomato;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+}
+.footer-text{
+    color: rgb(112, 112, 112);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+
